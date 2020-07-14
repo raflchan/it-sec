@@ -38,9 +38,13 @@
 
 #### CBC Modus
 
+Blöcke müssen sequentiell ver- und entschlüsselt werden.
+
 ![](assets/images/aes_cbc.png)
 
 #### CTR Modus
+
+Blöcke können parallel ver- und entschlüsselt werden.
 
 ![](assets/images/aes_ctr.png)
 
@@ -67,6 +71,8 @@
 ### Elliptic Curve Cryptography (ECC)
 
 #### Schlüssellängen und Sicherheitslevel
+
+ECC Sicherheit = (ECC Schlüssel) / 2
 
 ![](assets/images/ecc_keylen_and_security.png)
 
